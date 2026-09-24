@@ -205,7 +205,7 @@ class ColorPicker(ft.Column):
             width=CIRCLE_SIZE,
             height=CIRCLE_SIZE,
             border_radius=CIRCLE_SIZE,
-            border=ft.border.all(width=2, color="white"),
+            border=ft.Border.all(width=2, color="white"),
         )
 
         self.color_map_container.content.controls.append(self.color_map)
